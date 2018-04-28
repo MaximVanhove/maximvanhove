@@ -3,5 +3,15 @@
   "extends": [
     "plugin:vue/essential",
     "@vue/standard"
-  ]
+  ],
+  "rules": {
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+    }]
+  }
 }
