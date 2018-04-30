@@ -44,7 +44,7 @@ export default {
 
     methods: {
         calculateAge () {
-            const birthday = new Moment('August 07, 1994 16:00:00')
+            const birthday = new Moment('1994-08-07 16:00:00')
             const now = new Moment()
             const duration = Moment.duration(now.diff(birthday))
 
