@@ -10,7 +10,7 @@
             </p>
 
             <p>
-                Ik ben zeer geïnteresseerd in webtechnologieën en alles wat er mee te maken heeft. Als ik niet slaap je me altijd op het web terug vinden.
+                Ik ben zeer geïnteresseerd in webtechnologieën en alles wat er mee te maken heeft. Als ik niet slaap kan je me altijd op het web terug vinden.
             </p>
 
             <p>
