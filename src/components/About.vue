@@ -1,5 +1,9 @@
 <template>
     <section class="about">
+        <section class="avatar">
+            <img src="@/assets/me.jpg" alt="Maxim Vanhove" />
+        </section>
+
         <div class="container">
             <h1>MAXIM VANHOVE</h1>
             <aside>Front End & PHP Developer</aside>
@@ -65,7 +69,7 @@ export default {
         color: #333;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: center;
+        padding-bottom: 50px;
 
         .container {
             padding: 0 1rem;
@@ -76,6 +80,34 @@ export default {
 
         > * {
             width: 100%;
+        }
+
+        section.avatar {
+            padding: 5rem 0 2rem;
+            text-align: center;
+            position: relative;
+
+            &::before {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 30%;
+                background: $primary;
+                display: block;
+                width: 100%;
+                position: absolute;
+                z-index: 0;
+                content: '';
+            }
+
+            > img {
+                width: 140px;
+                height: auto;
+                border-radius: 50%;
+                border: 4px solid white;
+                position: relative;
+                z-index: 1;
+            }
         }
 
         h1 {
